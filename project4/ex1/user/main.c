@@ -22,7 +22,7 @@ void timer_init(){
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2,ENABLE);
 	timer.TIM_ClockDivision = 0;
 	timer.TIM_CounterMode = TIM_CounterMode_Up;
-	timer.TIM_Period = 65536 - 1;
+	timer.TIM_Period = 36000 - 1;
 	timer.TIM_Prescaler = 2 -1 ;
 	timer.TIM_RepetitionCounter = 0;
 	TIM_TimeBaseInit(TIM2,&timer);

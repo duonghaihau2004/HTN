@@ -25,10 +25,10 @@ void GPIO_Config(void)
     GPIO_Init(GPIOA, &gpio);
 }
 
+
 void TIM2_Config(void)
 {
-	
-	  TimBaseInitTypeDef tim;
+		TIM_TimeBaseInitTypeDef tim;
 		NVIC_InitTypeDef nvic;
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
 

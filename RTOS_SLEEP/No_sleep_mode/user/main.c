@@ -22,9 +22,9 @@ int main(){
 	Config_Led();
 	while(1){
 		GPIO_ResetBits(GPIOA, GPIO_Pin_0);
-		Delay_ms(500);
+		Delay_ms(200);
 		GPIO_SetBits(GPIOA, GPIO_Pin_0);
-		Delay_ms(500);
+		Delay_ms(200);
 	}
 }
 

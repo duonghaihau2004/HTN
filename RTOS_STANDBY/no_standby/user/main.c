@@ -9,12 +9,12 @@
 void Config_GPIO(){
 	GPIO_InitTypeDef uart;
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-	
+	//tx
 	uart.GPIO_Mode		= GPIO_Mode_AF_PP;
 	uart.GPIO_Pin			= GPIO_Pin_9;
 	uart.GPIO_Speed		= GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA, &uart);
-	
+	//rx
 	uart.GPIO_Mode		= GPIO_Mode_IN_FLOATING;
 	uart.GPIO_Pin			= GPIO_Pin_10;
 	GPIO_Init(GPIOA, &uart);

@@ -59,7 +59,7 @@ int main(){
 	Config_GPIO();
 	Config_Uart();
 
-	uart_SendStr("Hello PTIT....\r\n");
+	uart_SendStr("Hello PTIT....\n");
 	Delay_ms(1000);
 	for(i = 0; i<5000000;i++);
 	

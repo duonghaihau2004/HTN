@@ -2072,19 +2072,19 @@ Image component sizes
          0          0          0          0          0      11524   event_groups.o
        540         74          0         32       8192       4219   heap_4.o
        142          0          0          0          0       2896   list.o
-       216         18          0          0          0     240653   main.o
+       216         18          0          0          0     240685   main.o
        112         12          0          0          0       1232   misc.o
-       270         28          0          4          0       5019   port.o
+       270         28          0          4          0       5027   port.o
       1312         14          0          0          0      15786   queue.o
-        64         26        236          0       1536        800   startup_stm32f10x_md.o
+        64         26        236          0       1536        808   startup_stm32f10x_md.o
        278          0          0          0          0       2172   stm32f10x_gpio.o
         64         12          0          0          0       1282   stm32f10x_rcc.o
        246         42          0          0          0       4054   stm32f10x_tim.o
-       328         28          0          0          0       1921   system_stm32f10x.o
+       328         28          0          0          0       1953   system_stm32f10x.o
       1632        242          0         60       1220      31756   tasks.o
 
     ----------------------------------------------------------------------
-      5476        516        268        100      11864     362284   Object Totals
+      5476        516        268        100      11864     362364   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         16          0          0          3          0          0   (incl. Padding)
 
@@ -2135,8 +2135,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6000        532        268        100      11964     359424   Grand Totals
-      6000        532        268        100      11964     359424   ELF Image Totals
+      6000        532        268        100      11964     359504   Grand Totals
+      6000        532        268        100      11964     359504   ELF Image Totals
       6000        532        268        100          0          0   ROM Totals
 
 ==============================================================================
